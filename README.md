@@ -57,9 +57,12 @@ Here I calculate the error correction between the URDF file and the DH parameter
 
 Here I find the WC using the rotational end effector matrix: 
 
-<img src="./misc/page6.JPG" width="500" class="rotateimg90">
+<img src="./misc/page6.JPG" width="500" >
 
 
 **PART TWO**
 #### Inverse Kinematics
+The inverse Kinematics model is done by solving for 6 joint angles in order to manipulate the arm.
+In the following image I show how I calculated and found Theta1, theta2, and theta3 for the inverse wrist center position for the Kuka Arm. 
+
 
