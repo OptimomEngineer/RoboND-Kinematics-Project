@@ -26,7 +26,7 @@ This is the Udacity Kinematics Project for Term 1 of the Sofware Robotics Nanode
 Above you can see the environment the kuka arm was located in as well as the shelf, the cylindrical object that the Kuka Arm is currently dropping into the bin.
 
 **PART ONE**
-####Forward Kinematics
+#### Forward Kinematics
 In order to calculate the forward kinematics, I created a table similar to this one from the URDF files. (all Pen and Paper images can be seen in the MISC file). The pen and paper for this is page 1.
 ![KR210 Manipulator][image3]
 
@@ -43,5 +43,5 @@ PUT PICTURE OF PAGE 4 and 5 here for this part.
 
 
 **PART TWO**
-####Inverse Kinematics
+#### Inverse Kinematics
 
