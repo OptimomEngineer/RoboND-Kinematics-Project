@@ -25,4 +25,23 @@ This is the Udacity Kinematics Project for Term 1 of the Sofware Robotics Nanode
 
 Above you can see the environment the kuka arm was located in as well as the shelf, the cylindrical object that the Kuka Arm is currently dropping into the bin.
 
+**PART ONE**
+####Forward Kinematics
+In order to calculate the forward kinematics, I created a table similar to this one from the URDF files. (all Pen and Paper images can be seen in the MISC file). The pen and paper for this is page 1.
+![KR210 Manipulator][image3]
+
+The sum of the z column = 1.946 which matches the RVIZ end data in the link table. Therefore, the position of the reference frame origin are consistent with the cummulative displacement in the URDF files. 
+
+In order to make a DH parameter table for the Forward kinematics, I drew out on pen and paper the model using the URDF values for the joints and calculated or found the twist angles(alpha), theta values, d and a values for the z-axis and x-axis respectively. 
+
+PUT PICTURE OF PAGE 2 & 3 of PEN AND PAPER HERE.
+
+I created the symbols in the IK_server.py script file and filled out a DH parameter table. I used the DH parameter table to sub in for transformation matrices for each joint/link pair.
+
+In order to get the Px, Py and Pz for the spherical wrist, I wanted to use the transformation matrices to create the rotational matrices and then applied an error correction.
+PUT PICTURE OF PAGE 4 and 5 here for this part.
+
+
+**PART TWO**
+####Inverse Kinematics
 
