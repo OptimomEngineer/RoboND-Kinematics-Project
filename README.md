@@ -49,10 +49,11 @@ In order to make a DH parameter table for the Forward kinematics, I drew out on 
 I created the symbols in the IK_server.py script file and filled out a DH parameter table. I used the DH parameter table to sub in for transformation matrices for each joint/link pair.
 
 In order to get the Px, Py and Pz for the spherical wrist, I wanted to use the transformation matrices to create the rotational matrices and then applied an error correction.
+
 <img src="./misc/RotationMatrices_xyz.png" width="500">
 
 Here I calculate the error correction between the URDF file and the DH parameters I calculated.
-![Error Correction][image13]
+<img src="./misc/page5.JPG" width="500">
 
 Here I find the WC 
 <img src="./misc/page6.JPG" width="500">
