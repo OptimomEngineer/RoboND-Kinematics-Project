@@ -14,10 +14,10 @@
 [image7]: ./misc/IK_debug_results_image.png
 [image8]: ./misc/rviz_screen_image.png
 [image9]: ./misc/DHParameters.png
-[image10]: ./misc/page2.jpg
-[image11]: ./misc/page3.jpg
-[image12]: ./misc/page6.jpg
-[image13]: ./misc/page5.jpg
+[image10]: ./misc/page2.JPG
+[image11]: ./misc/page3.JPG
+[image12]: ./misc/page6.JPG
+[image13]: ./misc/page5.JPG
 
 This is the Udacity Kinematics Project for Term 1 of the Sofware Robotics Nanodegree Program. 
 
