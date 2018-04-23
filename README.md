@@ -66,3 +66,14 @@ The inverse Kinematics model is done by solving for 6 joint angles in order to m
 In the following image I show how I calculated and found Theta1, theta2, and theta3 for the inverse wrist center position for the Kuka Arm. 
 
 
+Finally I found the inverse orientation angles for the end effector using the rotational matrix and using trigonometric properties to solve for theta4, theta5 and theta6. 
+
+Here is the matrix I extracted using the print method in the code.
+![Rotation Matrix for Theta4, theta5, theta6][image5]
+
+Using this matrix, I calculated the theta values to obtain the final orientation for the kuka end effector.
+
+Testing out the code, I found my errors to be OK. I hope to improve on the coding to help reduce the error. I did test the math on the robotic arm in simulation and found I occasionally had trouble with the path to the bin for the cylinders placed on the top shelf.
+![Errors][image7]
+Overall a fun project and would like to refine and reduce my errors more as I learn.
+
