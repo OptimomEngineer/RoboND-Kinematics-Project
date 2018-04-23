@@ -14,6 +14,10 @@
 [image7]: ./misc/IK_debug_results_image.png
 [image8]: ./misc/rviz_screen_image.png
 [image9]: ./misc/DHParameters.png
+[image10]: ./misc/page2.jpg
+[image11]: ./misc/page3.jpg
+[image12]: ./misc/page6.jpg
+[image13]: ./misc/page5.jpg
 
 This is the Udacity Kinematics Project for Term 1 of the Sofware Robotics Nanodegree Program. 
 
@@ -37,14 +41,20 @@ In order to make a DH parameter table for the Forward kinematics, I drew out on 
 
 ![DH Parameter Table][image9]
 
-PUT PICTURE OF PAGE 2 & 3 of PEN AND PAPER HERE.
+![Twist Angles and Thetas][image10]
+
+![a's and d's][image11]
 
 I created the symbols in the IK_server.py script file and filled out a DH parameter table. I used the DH parameter table to sub in for transformation matrices for each joint/link pair.
 
 In order to get the Px, Py and Pz for the spherical wrist, I wanted to use the transformation matrices to create the rotational matrices and then applied an error correction.
 ![Transformation Matrices Used][image4]
 
-PUT PICTURE OF PAGE 4 and 5 here for this part.
+Here I calculate the error correction between the URDF file and the DH parameters I calculated.
+![Error Correction][image13]
+
+Here I find the WC 
+![Finding WC][image12]
 
 
 **PART TWO**
