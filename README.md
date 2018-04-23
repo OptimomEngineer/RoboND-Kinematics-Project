@@ -41,7 +41,8 @@ In order to make a DH parameter table for the Forward kinematics, I drew out on 
 
 ![DH Parameter Table][image9]
 
-![Twist Angles and Thetas][image10]
+<img src="./misc/page2" width="200">
+
 
 ![a's and d's][image11]
 
