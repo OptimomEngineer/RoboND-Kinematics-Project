@@ -14,7 +14,7 @@
 [image7]: ./misc/IK_debug_results_image.png
 [image8]: ./misc/rviz_screen_image.png
 [image9]: ./misc/DHParameters.png
-[image10]: ./misc/page2.png
+[image10]: ./misc/page2.JPG
 [image11]: ./misc/page3.JPG
 [image12]: ./misc/page6.JPG
 [image13]: ./misc/page5.JPG
@@ -29,6 +29,10 @@ This is the Udacity Kinematics Project for Term 1 of the Sofware Robotics Nanode
 ![Robot Model][image1]
 
 Above you can see the environment the kuka arm was located in as well as the shelf, the cylindrical object that the Kuka Arm is currently dropping into the bin.
+
+I also wanted to see how the URDF file saw the joints and links and so I have included here what helped me understand the robot using the wire image.
+![Wire Image Robot Model][image2]
+
 
 **PART ONE**
 #### Forward Kinematics
@@ -66,7 +70,8 @@ Here I find the WC using the rotational end effector matrix:
 #### Inverse Kinematics
 The inverse Kinematics model is done by solving for 6 joint angles in order to manipulate the arm.
 In the following image I show how I calculated and found Theta1, theta2, and theta3 for the inverse wrist center position for the Kuka Arm. 
-
+<img src="./misc/page7.JPG" width="500" >
+<img src="./misc/page8.JPG" width="500" >
 
 Finally I found the inverse orientation angles for the end effector using the rotational matrix and using trigonometric properties to solve for theta4, theta5 and theta6. 
 
@@ -74,6 +79,7 @@ Here is the matrix I extracted using the print method in the code.
 ![Rotation Matrix for Theta4, theta5, theta6][image5]
 
 Using this matrix, I calculated the theta values to obtain the final orientation for the kuka end effector.
+<img src="./misc/page9.JPG" width="500" >
 
 Testing out the code, I found my errors to be OK. I hope to improve on the coding to help reduce the error. I did test the math on the robotic arm in simulation and found I occasionally had trouble with the path to the bin for the cylinders placed on the top shelf.
 ![Errors][image7]
