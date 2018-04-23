@@ -14,7 +14,7 @@
 [image7]: ./misc/IK_debug_results_image.png
 [image8]: ./misc/rviz_screen_image.png
 [image9]: ./misc/DHParameters.png
-[image10]: ./misc/page2.JPG
+[image10]: ./misc/page2.png
 [image11]: ./misc/page3.JPG
 [image12]: ./misc/page6.JPG
 [image13]: ./misc/page5.JPG
