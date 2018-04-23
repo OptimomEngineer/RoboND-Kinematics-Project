@@ -55,8 +55,9 @@ In order to get the Px, Py and Pz for the spherical wrist, I wanted to use the t
 Here I calculate the error correction between the URDF file and the DH parameters I calculated.
 <img src="./misc/page5.JPG" width="500">
 
-Here I find the WC 
-<img src="./misc/page6.JPG" width="500">
+Here I find the WC using the rotational end effector matrix: 
+
+<img src="./misc/page6.JPG" width="500" class="rotateimg90">
 
 
 **PART TWO**
