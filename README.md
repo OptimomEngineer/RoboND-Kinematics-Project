@@ -36,7 +36,7 @@ I also wanted to see how the URDF file saw the joints and links and so I have in
 
 **PART ONE**
 #### Forward Kinematics
-In order to calculate the forward kinematics, I created a table similar to this one from the URDF files. (all Pen and Paper images can be seen in the MISC file). The pen and paper for this is page 1.
+In order to calculate the forward kinematics, I created a table similar to this one from the URDF files.
 ![KR210 Manipulator][image3]
 
 The sum of the z column = 1.946 which matches the RVIZ end data in the link table. Therefore, the position of the reference frame origin are consistent with the cummulative displacement in the URDF files. 
