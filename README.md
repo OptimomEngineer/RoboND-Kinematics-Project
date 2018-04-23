@@ -41,6 +41,8 @@ In order to make a DH parameter table for the Forward kinematics, I drew out on 
 
 ![DH Parameter Table][image9]
 
+
+
 <img src="./misc/page2.JPG" width="500">
 
 
